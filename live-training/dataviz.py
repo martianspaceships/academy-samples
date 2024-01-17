@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import io
-
+# to use:  from dataviz import plot_3d
 
 def plot_3d(df: pd.DataFrame, x: str, y: str, z: str, country: str):
     """
